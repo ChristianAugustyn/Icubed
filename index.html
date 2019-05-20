@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="store.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="header" class="row"><!--III title header-->
+                <div class="col">
+                    <p id="header-title" class="text-center h3" >Izzy's Iperfect Items</p>
+                </div>
+            </div>
+            <div id="main" class="row">
+                <div class="col"><!--div for the items-->
+                    <div class="card">
+                        <p class="card-title"><i class="fas fa-store"></i> Items</p>
+                        <button id="Scrunchie" type="button" class="btn btn-light" onclick="addItem(this)">
+                            <div class="card">
+                                <div class="card-body">Scrunchie</div>
+                            </div>
+                        </button>
+                        <button id="Napkin" type="button" class="btn btn-light" onclick="addItem(this)">
+                            <div class="card">
+                                <div class="card-body">Napkin</div>
+                            </div>
+                        </button>
+                        <button id="Cutlery Pouch" type="button" class="btn btn-light" onclick="addItem(this)">
+                            <div class="card">
+                                <div class="card-body">Cutlery Pouch</div>
+                            </div>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="col"><!--div for the cart-->
+                    <div class="card" style="height: 293px;">
+                        <div class="card-title"><i class="fas fa-shopping-cart"></i> Cart</div>
+                        <ul id="cart" class="list-group">
+                            <!-- <li class="list-group-item border-0" id="Cutlery Pouch"><span class="badge badge-pill badge-info">1</span>Cutlery Pouch</li>
+                            <li class="list-group-item border-0" id="Napkin"><span class="badge badge-pill badge-info">2</span>Napkin</li> -->
+                        </ul>
+                    </div>
+                    <button type="button" class="btn btn-primary">Checkout</button>
+                    <button type="button" class="btn btn-secondary">Clear</button>
+                </div>
+                
+
+            </div>
+        </div>
+    </body>
+</html>

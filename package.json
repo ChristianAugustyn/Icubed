@@ -1,0 +1,18 @@
+{
+  "name": "IzzysIperfectItems",
+  "version": "1.0.0",
+  "description": "cashier system for Isabel's hand made market",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Christian Augustyn",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^5.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}

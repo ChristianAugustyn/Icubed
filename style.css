@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Pacifico&display=swap');
+#header{
+    background-color: #b19cd9;
+    color: white;
+}
+
+#header-title{
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+
+.card-title {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+.row, .card {
+    margin-bottom: 5px;
+}
+
